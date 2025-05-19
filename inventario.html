@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inventario</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/css/style.css">
+  <style>
+    .inventario-box {
+      max-width: 800px;
+      margin: 60px auto;
+      background-color: white;
+      padding: 40px;
+      border-radius: 15px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    }
+    h2 {
+      text-align: center;
+      margin-bottom: 30px;
+      font-weight: bold;
+    }
+    table {
+      text-align: center;
+    }
+    .btn-back {
+      display: block;
+      margin: 30px auto 0;
+      text-align: center;
+      text-decoration: none;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <div class="inventario-box">
+    <h2>Inventario</h2>
+
+    <div class="table-responsive">
+      <table class="table table-bordered table-striped">
+        <thead class="table-primary">
+          <tr>
+            <th>Código</th>
+            <th>Nombre del Producto</th>
+            <th>Cantidad</th>
+            <th>Precio Unitario</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>P001</td><td>Martillo</td><td>50</td><td>$12.50</td></tr>
+          <tr><td>P002</td><td>Laptop HP</td><td>5</td><td>$800.00</td></tr>
+          <tr><td>P003</td><td>Cemento</td><td>100</td><td>$25.00</td></tr>
+          <tr><td>P004</td><td>Clavos</td><td>7855</td><td>$0.10</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <a href="index.html" class="btn btn-secondary btn-back">⬅️ Regresar</a>
+  </div>
+</body>
+</html>
